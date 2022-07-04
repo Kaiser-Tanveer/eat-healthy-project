@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.top{
+    background-image: url(./images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.half-width{
+    margin-top: 80px;
+    width: 50%;
+}
+
+.title{
+    
+    padding-top: 80px;
+}
+
+span{
+    color: #fb9149;
+}
+
+.title h1{
+    font-size: 34px;
+    color: #575757;
+}
+
+.title p{
+    font-size: 18px;
+    color: #575757;
+    margin: 20px 0;
+}
+
+.btn{
+    background-image: linear-gradient(#fb974b, #fe4a2f);
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+.half-width img{
+    width: 100%;
+}
+/* top section ends */
+
+
+/* mid section starts */
+.mid{
+    background-image:url(./images/food/About-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro{
+    padding-top: 100px;
+    color: antiquewhite;
+    padding-left: 150px;
+}
+
+.intro h1{
+    font-size: 34px;
+    color: #fb974b;
+}
+
+.intro p{
+    margin: 30px 0;
+    padding-bottom: 50px;
+}
+
+.mid .half-width img{
+    width: 90%;
+    margin-top: 80px;
+}
+/* mid section ends */
+
+
+/* card section starts */
+
+.second-last{
+    background-image: url(./images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card-title{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.card{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+}
+
+.actual-card{
+    width: 50%;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 20px;
+    bottom: none;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.actual-card p{
+    color: #575757;
+    font-size: 14px;
+}
+
+.actual-card img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.right img{
+    height: 320px;
+    border-radius: 40px;
+}
+
+/* card section ends */
+
+
+
+/* Last section starts */
+
+.last-section{
+    background-image: url(./images/shapes/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+    opacity: 80%;
+}
+
+.wide-card{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 20px gray;
+}
+
+.wide-card h1{
+    font-size: 36px;
+    letter-spacing: 1.5px;
+}
+
+/* Last section ends */
+
+footer{
+    width: 100%;
+    background-color: #0b0d17;
+    margin: auto;
+    padding: 40px 0;
+}
+
+footer h1{
+    color: #575757;
+    text-align: center;
+}
+
+footer p{
+    color: #ffffff;
+    text-align: center;
+}
